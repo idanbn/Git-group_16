@@ -1,21 +1,16 @@
 #define CRT_SECURE_NO_WARNINGS
-#include <iostream>
-using namespace std;
-#include "Person.h"
+#ifndef Employee_h
+#define Employee_h
+#include"Person.h"
 
-
-class Employee //**public Person**// 
+class Employee :public Person 
 {
 private:
 	float salary;
-	int age;
-	long ID;
-	char name[10];
-
 public:
-	Student(int c = age, long id = ID, char na[10] = name) {};
+	Employee(string _Name, long _ID, int _Age, float _salary) :Person::Person(_Name, _ID, _Age), salary(_salary){
 
-
-
-
+	};
 };
+
+#endif //Employee_H
