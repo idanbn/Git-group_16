@@ -15,7 +15,7 @@ private:
     long ID;
     int Age;
 public:
-    Person(char _Name[10],_ID,_Age){
+    Person(char _Name[10],long _ID, int _Age){
         Name=_Name;
         ID=_ID;
         Age=_Age;
