@@ -51,7 +51,7 @@ int main() {
 				cout << "Enter person salary: ";
 				cin >> salary;
 				arr[i] = new WorkingStudents(Name, ID, Age, institute, average, salary, true);
-				
+
 			}
 			else {
 
@@ -65,10 +65,10 @@ int main() {
 				cin >> institute;
 				cout << "Enter Student average: ";
 				cin >> average;
-				
+
 				arr[i] = new Student(Name, ID, Age, institute, average);
-				
-				
+
+
 
 			}
 
@@ -91,9 +91,11 @@ int main() {
 		}
 
 	}
-	arr[0]->Print();
+	for (int i = 0; i < num_of_persons; i++) {
+		arr[i]->Print();
+	}
 	int x;
-	cin >>x;
+	cin >> x;
 
 
 	return 0;

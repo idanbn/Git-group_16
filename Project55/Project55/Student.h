@@ -17,7 +17,7 @@ public:
 	virtual void  PrintMe() {
 		cout << institute << "\n";
 		cout << average << "\n";
-		
+
 	}
 };
 #endif /* Student_h */

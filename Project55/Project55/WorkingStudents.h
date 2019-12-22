@@ -16,7 +16,8 @@ public:
 
 		Student::PrintMe();
 		Employee::PrintMe();
-		cout << inse << "\n";
+		cout << inse << "\nThis is Working Student\n";
+
 
 	}
 
