@@ -1,11 +1,7 @@
 
 
-
-//#include"Person.h"
-
 #include <iostream>
 #include <string>
-//#include "Person.h"
 #include "Employee.h"
 #include "WorkingStudents.h"
 using namespace std;
@@ -94,12 +90,6 @@ int main() {
 	for (int i = 0; i < num_of_persons; i++) {
 		arr[i]->Print();
 	}
-	int x;
-	cin >> x;
-
 
 	return 0;
 }
-
-
-
